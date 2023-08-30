@@ -1,0 +1,29 @@
+*{
+    margin: 0 auto;
+    padding: 0%;
+}
+header{
+    background-color: rgb(220, 249, 249);
+    width: 80%;
+    border: solid rgb(92, 128, 147) 1px;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+header li{
+    padding: 1% 3%;
+    display: flex;
+    color: rgb(39, 39, 160);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+header li:hover {
+    transform: scaleX(1.1);
+    background-color: rgb(167, 234, 234);
+}
+main{
+    text-align: center;
+}
