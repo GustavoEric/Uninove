@@ -1,46 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aula 04</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computador</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <h1>Aula 04</h1>
-  <div id="div1">
-    <h2>
-      Titulo 2
-    </h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate rerum vitae molestias atque aspernatur ab
-      expedita ducimus laboriosam sunt laborum.
-    </p>
-  </div>
-  <div id="div2">
-    <h2 id="outroTitulo2">
-      Outro Titulo 2
-    </h2>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe eaque, voluptate sequi cum architecto, totam at
-      eum itaque, excepturi voluptates distinctio. Soluta magnam cumque corporis obcaecati, ducimus eligendi itaque
-      repellat, non assumenda nemo excepturi exercitationem dolore ex recusandae. Aliquid sed unde quidem commodi quasi
-      sequi tempore dicta, qui odio iusto?
-    </p>
-  </div>
-  <div id="div3">
-    <h2>
-      Outro Titulo 3
-    </h2>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe eaque, voluptate sequi cum architecto, totam at
-      eum itaque, excepturi voluptates distinctio. Soluta magnam cumque corporis obcaecati, ducimus eligendi itaque
-      repellat, non assumenda nemo excepturi exercitationem dolore ex recusandae. Aliquid sed unde quidem commodi quasi
-      sequi tempore dicta, qui odio iusto?
-    </p>
-  </div>
+    <header>
+        <h1>História dos computadores</h1>
+    </header>
+    <main>
+        <div id="min">
+            <img onmouseover="selecionar(1)" src="imagens/img1.webp" alt="Computador img1 div min" srcset="">
+            <img onmouseover="selecionar(2)" src="imagens/img2.jpg" alt="Computador img2 div min" srcset="">
+            <img onmouseover="selecionar(3)" src="imagens/img3.png" alt="Computador img3 div min" srcset="">
+        </div>
+        <div id="max" onmouseover="selecionar(4)" >
+            <img src="imagens/img1.webp" alt="" srcset="" id="img1">
+            <img src="imagens/img2.jpg" alt="" srcset="" id="img2">
+            <img src="imagens/img3.png" alt="" srcset="" id="img3">
+        </div>
+    </main>
+    <script src="script.js"></script>
 </body>
-
 </html>
