@@ -1,0 +1,33 @@
+*{
+    margin: 0% auto;
+}
+header,footer{
+    width: 80%;
+    background-color: rgb(160, 167, 167);
+    border: solid #c0c0c0 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+nav{
+    width: 80%;
+    background-color: rgb(139, 139, 189);
+}
+nav a{
+    padding: 5px 30px; /* margem 5px cima/baixo e 30px esquerda/direita */
+    color:black; /* cor da letra */
+    text-decoration: none; /* retira o sublinhado */
+}
+nav a:hover{
+    color:rgb(132, 24, 24); /* cor da letra */
+}
+main{
+    width: 80%;
+    height: 400px;
+    background-color: blueviolet;
+    border: solid #c0c0c0 1px;
+    box-sizing: border-box;
+    margin-top: 2px;
+}
