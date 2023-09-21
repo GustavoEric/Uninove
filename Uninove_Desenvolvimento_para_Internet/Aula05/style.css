@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#div1{
+    background-color: hsl(240, 100%, 50%);
+    color: #FFFFFF;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+h1{
+    width:50%;
+    background-color: pink;
+    margin: 0 auto
+}
+#div2{
+    background-color: hsl(240, 64%, 74%);
+    color: #FFFFFF;
+}
+#div3{
+    background-color: hsl(240, 64%, 74%);
+    color: #FFFFFF;
+}
+#div4{
+    background-color: hsl(240, 64%, 74%);
+    color: #FFFFFF;
+}
