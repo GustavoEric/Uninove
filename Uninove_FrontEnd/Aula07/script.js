@@ -9,7 +9,7 @@ function validar(usuario,senha){
     }
 }
 function lembrar(){
-    principal = document.getElementById('principal').innerHTML='Usuario: admin <br> Senha: uninove'
+    principal = document.getElementById('principal').innerHTML='<div id="Lembrasenha">Usuario: admin <br> Senha: uninove</div>'
 }
 function alterar(bt){
     principal = document.querySelector('main')
@@ -21,4 +21,9 @@ function alterar(bt){
         principal.innerHTML= '<h2>Cursos</h2><p>Os cursos de saúde da UNINOVE promovem uma rápida empregabilidade pela excelência de sua formação conceitual e prática, em seus laboratórios de simulação realística e atendimento multiprofissional em clínicas próprias, qualificando profissionais para os cuidados diagnósticos e preventivos de saúde, atendimento pacientes crônicos, acidentados, idosos, atendimento domiciliar, em uma vasta rede de clínicas e hospitais.</p>'
         
     }
+}
+function alternarModo(){
+    modo = document.getElementById('btTest')
+    console.log(modo.value)
+    console.log(modo.innerContents)
 }
