@@ -1,0 +1,7 @@
+div#formQuiz {
+    display: flex;
+    flex-wrap: wrap;
+}
+#pontuacao{
+    display: none;
+}
