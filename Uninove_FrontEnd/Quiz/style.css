@@ -1,7 +1,19 @@
+*{
+    justify-content: center;
+}
 div#formQuiz {
     display: flex;
     flex-wrap: wrap;
 }
-#pontuacao{
-    display: none;
+dialog#pontuacao {
+    /* margin: 1% 79%; */
+    left: auto;
+    margin: 3%;
+}
+header{
+    background-image: url(Imagens/img1.png);
+    background-size: cover;
+    height: 15vw;
+    width: 50%;
+    text-align: end;
 }
