@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "pergunta": "Qual camada do modelo OSI lida com o endereçamento IP e o roteamento?",
+        "alternativaA":"A) Camada Física",
+        "alternativaB":"B) Camada de Aplicação",
+        "alternativaC":"C) Camada de Rede",
+        "alternativaD":"D) Camada de Transporte",
+        "correta": "C"
+    },
+    {
+        "id": 2,
+        "pergunta": "O que significa a sigla DNS em uma rede de computadores?",
+        "alternativaA":"A) Sistema de Navegação de Dados",
+        "alternativaB":"",
+        "alternativaC":"",
+        "alternativaD":"",
+        "correta": ""
+    },
+    {
+        "id": 3,
+        "pergunta": "Qual protocolo de segurança é comumente usado para proteger a comunicação na web, fornecendo criptografia entre o navegador e o servidor?",
+        "alternativaA":"",
+        "alternativaB":"",
+        "alternativaC":"",
+        "alternativaD":"",
+        "correta": ""
+    },
+    {
+        "id": 4,
+        "pergunta": "",
+        "alternativaA":"",
+        "alternativaB":"",
+        "alternativaC":"",
+        "alternativaD":"",
+        "correta": ""
+    },
+    {
+        "id": 5,
+        "pergunta": "",
+        "alternativaA":"",
+        "alternativaB":"",
+        "alternativaC":"",
+        "alternativaD":"",
+        "correta": ""
+    }
+]
