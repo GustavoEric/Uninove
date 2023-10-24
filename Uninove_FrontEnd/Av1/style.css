@@ -10,18 +10,41 @@ img {
     width: 100%;
     height: 45%;
 }
+/* div {
+    display: grid;
+} */
 main {
-    margin: 5%;
+    margin: 2%;
     text-align: center;
 }
 form#formTI {
     border: solid;
     height: 34vw;
-    padding: 9%;
+    padding: 5%;
     width: 50%;
     margin-inline: auto;
     border-radius: 5%;
     background-color: white;
+}
+input#responder:disabled {
+    background-color: #aaaaaa;
+}
+input#proxima:disabled {
+    background-color: #aaaaaa;
+}
+input#responder {
+    border-radius: 13%;
+    width: 10%;
+    height: 4vw;
+    background-color: #0f0f0f;
+    color: white;
+}
+input#proxima {
+    border-radius: 13%;
+    width: 10%;
+    height: 4vw;
+    background-color: #0f0f0f;
+    color: white;
 }
 /* input:nth-child(1){
     background-color: black;

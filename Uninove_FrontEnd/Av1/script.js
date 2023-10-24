@@ -1,12 +1,16 @@
-numeroPergunta=1
+numeroPergunta=20
+// numeroPergunta=1
 redes = 0
+programacao = 0
+design = 0
+seguranca = 0
+const form = document.querySelector('#formTI')
 function carregar(id){
     fetch('perguntas.json')
     .then(response => response.json())
         .then(perguntas =>{
-            const form = document.querySelector('#formTI')
             const quantidadePerguntas = document.querySelector('h1')
-            quantidadePerguntas.innerHTML ="Perguntas "+ id+"/15"
+            quantidadePerguntas.innerHTML ="Perguntas "+ id+"/20"
             form.innerHTML = ""
             perguntas.map(pergunta =>{
                 if(pergunta.id == id){
@@ -74,26 +78,76 @@ botao.addEventListener("click", function () {
     resposta = document.querySelector('[name="alt"]:checked').value
 
     if (resposta!=alternativaCorreta){
-        alert("Errado")
+        // alert("Errado")
         proxima.disabled = false
 
     }
     else{
-        alert("Certo")
+        // alert("Certo")
         proxima.disabled = false
         if(numeroPergunta<6){
             redes+=1
         }
+        else if(numeroPergunta>5 && numeroPergunta<11){
+            programacao+=1
+        }
+        else if(numeroPergunta>10 && numeroPergunta<16){
+            design+=1
+        }
+        else{
+            seguranca+=1
+        }
         console.log(redes)
+        console.log(programacao)
+        console.log(design)
+        console.log(seguranca)
     }
     }
     catch{
-        alert('Responda')
+        // alert('Responda')
+        botao.disabled = false
     }
 });
 proxima.addEventListener("click", function () {
         botao.disabled = false
         proxima.disabled = true
         numeroPergunta+=1
-        carregar(numeroPergunta)
+        if (numeroPergunta <=20){
+            carregar(numeroPergunta)
+        }
+        else{
+            form.innerHTML= ""
+            botao.remove()
+            proxima.remove()
+            if(redes > programacao && redes > design && redes >seguranca){
+                vocacao = "Redes"
+            }
+            else if(programacao > redes && programacao > design && programacao >seguranca){
+                vocacao = "Programação"
+            }
+            else if(design > redes && design > programacao && design >seguranca){
+                vocacao = "Design"
+            }
+            else if(seguranca > redes && seguranca > programacao && seguranca >design){
+                vocacao = "Segurança"
+            }
+            const pontuacaoTotal = document.createElement("p")
+            const Desempenho = document.createElement("div")
+            pontuacaoTotal.innerHTML = redes+programacao+design+seguranca+"/20"
+            const pontuacaoRedes = document.createElement("p")
+            pontuacaoRedes.innerHTML = redes+"/5"
+            const pontuacaoProgramacao = document.createElement("p")
+            pontuacaoProgramacao.innerHTML = programacao+"/5"
+            const pontuacaoDesign = document.createElement("p")
+            pontuacaoDesign.innerHTML = design+"/5"
+            const pontuacaoSeguranca = document.createElement("p")
+            pontuacaoSeguranca.innerHTML = seguranca+"/5"
+            form.appendChild(pontuacaoTotal)
+            Desempenho.appendChild(pontuacaoRedes)
+            Desempenho.appendChild(pontuacaoProgramacao)
+            Desempenho.appendChild(pontuacaoDesign)
+            Desempenho.appendChild(pontuacaoSeguranca)
+            form.appendChild(Desempenho)
+            alert(vocacao)
+        }
 });
