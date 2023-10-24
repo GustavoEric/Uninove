@@ -1,11 +1,17 @@
 numeroPergunta=1
+redes = 0
 function carregar(id){
     fetch('perguntas.json')
     .then(response => response.json())
         .then(perguntas =>{
             const form = document.querySelector('#formTI')
+            const quantidadePerguntas = document.querySelector('h1')
+            quantidadePerguntas.innerHTML ="Perguntas "+ id+"/15"
+            form.innerHTML = ""
             perguntas.map(pergunta =>{
                 if(pergunta.id == id){
+                    const img = document.createElement("img")
+                    img.src = "imagens/img2.png"
                     const Perguntalbl = document.createElement("label")
                     Perguntalbl.innerHTML = pergunta.pergunta
                     
@@ -43,6 +49,7 @@ function carregar(id){
                     // alert(pergunta.alternativaC)
                     // alert(pergunta.alternativaD)
                     alternativaCorreta = pergunta.correta
+                    form.appendChild(img)
                     form.appendChild(Perguntalbl)
                     altA.appendChild(rdbA)
                     form.appendChild(altA)
@@ -61,19 +68,31 @@ botao = document.querySelector('#responder')
 proxima = document.querySelector('#proxima')
 
 botao.addEventListener("click", function () {
+    botao.disabled = true
+    respostaRdb = document.querySelectorAll('[name="alt"]')
+    try{
     resposta = document.querySelector('[name="alt"]:checked').value
 
     if (resposta!=alternativaCorreta){
         alert("Errado")
         proxima.disabled = false
-        resposta.disabled = true
+
     }
     else{
         alert("Certo")
         proxima.disabled = false
+        if(numeroPergunta<6){
+            redes+=1
+        }
+        console.log(redes)
+    }
+    }
+    catch{
+        alert('Responda')
     }
 });
 proxima.addEventListener("click", function () {
+        botao.disabled = false
         proxima.disabled = true
         numeroPergunta+=1
         carregar(numeroPergunta)

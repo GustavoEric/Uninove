@@ -12,36 +12,36 @@
         "id": 2,
         "pergunta": "O que significa a sigla DNS em uma rede de computadores?",
         "alternativaA":"A) Sistema de Navegação de Dados",
-        "alternativaB":"",
-        "alternativaC":"",
-        "alternativaD":"",
-        "correta": ""
+        "alternativaB":"B) Servidor de Navegação na Web",
+        "alternativaC":"C) Sistema de Nomes de Domínio",
+        "alternativaD":"D) Serviço de Rede Dedicado",
+        "correta": "C"
     },
     {
         "id": 3,
         "pergunta": "Qual protocolo de segurança é comumente usado para proteger a comunicação na web, fornecendo criptografia entre o navegador e o servidor?",
-        "alternativaA":"",
-        "alternativaB":"",
-        "alternativaC":"",
-        "alternativaD":"",
-        "correta": ""
+        "alternativaA":"A) HTTP",
+        "alternativaB":"B) TCP",
+        "alternativaC":"C) SSL/TLS",
+        "alternativaD":"D) FTP",
+        "correta": "C"
     },
     {
         "id": 4,
-        "pergunta": "",
-        "alternativaA":"",
-        "alternativaB":"",
-        "alternativaC":"",
-        "alternativaD":"",
-        "correta": ""
+        "pergunta": "Qual dispositivo é projetado para filtrar o tráfego de rede com base nas regras definidas, impedindo ou permitindo a passagem de dados?",
+        "alternativaA":"A) Roteador",
+        "alternativaB":"B) Firewall",
+        "alternativaC":"C) Hub",
+        "alternativaD":"D) Modem",
+        "correta": "B"
     },
     {
         "id": 5,
-        "pergunta": "",
-        "alternativaA":"",
-        "alternativaB":"",
-        "alternativaC":"",
-        "alternativaD":"",
-        "correta": ""
+        "pergunta": "Qual tipo de endereço IP é usado para comunicação dentro da mesma rede local e não é roteável na Internet?",
+        "alternativaA":"A) Endereço IP público",
+        "alternativaB":"B) Endereço IP privado",
+        "alternativaC":"C) Endereço IP estático",
+        "alternativaD":"D) Endereço IP dinâmico",
+        "correta": "B"
     }
 ]
