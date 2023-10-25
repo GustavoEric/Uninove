@@ -1,5 +1,5 @@
-numeroPergunta=20
-// numeroPergunta=1
+// numeroPergunta=20
+numeroPergunta=1
 redes = 0
 programacao = 0
 design = 0
@@ -131,23 +131,29 @@ proxima.addEventListener("click", function () {
             else if(seguranca > redes && seguranca > programacao && seguranca >design){
                 vocacao = "Segurança"
             }
+            const total = redes+programacao+design+seguranca
             const pontuacaoTotal = document.createElement("p")
             const Desempenho = document.createElement("div")
-            pontuacaoTotal.innerHTML = redes+programacao+design+seguranca+"/20"
+            pontuacaoTotal.innerHTML = "Pontuação Total "+total+"/20"
             const pontuacaoRedes = document.createElement("p")
-            pontuacaoRedes.innerHTML = redes+"/5"
+            pontuacaoRedes.innerHTML = "Redes: "+redes+"/5"
             const pontuacaoProgramacao = document.createElement("p")
-            pontuacaoProgramacao.innerHTML = programacao+"/5"
+            pontuacaoProgramacao.innerHTML = "Programação: "+programacao+"/5"
             const pontuacaoDesign = document.createElement("p")
-            pontuacaoDesign.innerHTML = design+"/5"
+            pontuacaoDesign.innerHTML = "Design: "+design+"/5"
             const pontuacaoSeguranca = document.createElement("p")
-            pontuacaoSeguranca.innerHTML = seguranca+"/5"
+            pontuacaoSeguranca.innerHTML = "Segurança: "+seguranca+"/5"
+
+            const vocacaoTxt = document.createElement("p")
+            vocacaoTxt.innerHTML = "Vocação para a Área de: "+vocacao
+
             form.appendChild(pontuacaoTotal)
             Desempenho.appendChild(pontuacaoRedes)
             Desempenho.appendChild(pontuacaoProgramacao)
             Desempenho.appendChild(pontuacaoDesign)
             Desempenho.appendChild(pontuacaoSeguranca)
             form.appendChild(Desempenho)
+            form.appendChild(vocacaoTxt)
             alert(vocacao)
         }
 });
