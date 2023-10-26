@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "pergunta": "Qual camada do modelo OSI lida com o endereçamento IP e o roteamento?",
+        "alternativaA":"A) Camada Física",
+        "alternativaB":"B) Camada de Aplicação",
+        "alternativaC":"C) Camada de Rede",
+        "alternativaD":"D) Camada de Transporte",
+        "correta": "C"
+    },
+    {
+        "id": 2,
+        "pergunta": "O que significa a sigla DNS em uma rede de computadores?",
+        "alternativaA":"A) Sistema de Navegação de Dados",
+        "alternativaB":"B) Servidor de Navegação na Web",
+        "alternativaC":"C) Sistema de Nomes de Domínio",
+        "alternativaD":"D) Serviço de Rede Dedicado",
+        "correta": "C"
+    },
+    {
+        "id": 3,
+        "pergunta": "Qual protocolo de segurança é comumente usado para proteger a comunicação na web, fornecendo criptografia entre o navegador e o servidor?",
+        "alternativaA":"A) HTTP",
+        "alternativaB":"B) TCP",
+        "alternativaC":"C) SSL/TLS",
+        "alternativaD":"D) FTP",
+        "correta": "C"
+    },
+    {
+        "id": 4,
+        "pergunta": "Qual dispositivo é projetado para filtrar o tráfego de rede com base nas regras definidas, impedindo ou permitindo a passagem de dados?",
+        "alternativaA":"A) Roteador",
+        "alternativaB":"B) Firewall",
+        "alternativaC":"C) Hub",
+        "alternativaD":"D) Modem",
+        "correta": "B"
+    },
+    {
+        "id": 5,
+        "pergunta": "Qual tipo de endereço IP é usado para comunicação dentro da mesma rede local e não é roteável na Internet?",
+        "alternativaA":"A) Endereço IP público",
+        "alternativaB":"B) Endereço IP privado",
+        "alternativaC":"C) Endereço IP estático",
+        "alternativaD":"D) Endereço IP dinâmico",
+        "correta": "B"
+    },
+    {
+        "id": 6,
+        "pergunta": "Em programação, o que é uma variável?",
+        "alternativaA":"A) Uma declaração de uma função",
+        "alternativaB":"B) Um valor constante",
+        "alternativaC":"C) Um local na memória para armazenar dados",
+        "alternativaD":"D) Um tipo de loop",
+        "correta": "C"
+    },
+    {
+        "id": 7,
+        "pergunta": "Qual linguagem de programação é comumente usada para desenvolvimento de aplicativos móveis nativos?",
+        "alternativaA":"A) Java",
+        "alternativaB":"B) HTML",
+        "alternativaC":"C) Python",
+        "alternativaD":"D) PHP",
+        "correta": "A"
+    },
+    {
+        "id": 8,
+        "pergunta": "O que é a programação orientada a objetos (POO)?",
+        "alternativaA":"A) Um padrão de design para bancos de dados",
+        "alternativaB":"B) Um paradigma de programação baseado em objetos e classes",
+        "alternativaC":"C) Um tipo de hardware de computador",
+        "alternativaD":"D) Um sistema de controle de versão",
+        "correta": "B"
+    },
+    {
+        "id": 9,
+        "pergunta": "Qual é o resultado da expressão 3 + 4 * 2 em muitas linguagens de programação?",
+        "alternativaA":"A) 11",
+        "alternativaB":"B) 14",
+        "alternativaC":"C) 10",
+        "alternativaD":"D) 22",
+        "correta": "B"
+    },
+    {
+        "id": 10,
+        "pergunta": "Qual é o nome comum para uma estrutura de controle que permite a execução repetida de um bloco de código enquanto uma condição é verdadeira?",
+        "alternativaA":"A) Loop",
+        "alternativaB":"B) Ramificação",
+        "alternativaC":"C) Função",
+        "alternativaD":"D) Classe",
+        "correta": "A"
+    },
+    {
+        "id": 11,
+        "pergunta": "Qual elemento de design se refere à relação entre os elementos visuais em um layout, como o espaçamento entre eles?",
+        "alternativaA":"A) Alinhamento",
+        "alternativaB":"B) Contraste",
+        "alternativaC":"C) Proporção",
+        "alternativaD":"D) Espaçamento",
+        "correta": "D"
+    },
+    {
+        "id": 12,
+        "pergunta": "O que o termo paleta de cores se refere no design?",
+        "alternativaA":"A) Um tipo de pincel utilizado na pintura digital",
+        "alternativaB":"B) Uma seleção de cores usada em um projeto de design",
+        "alternativaC":"C) Um instrumento para medir a luz em uma fotografia",
+        "alternativaD":"D) Uma técnica de escultura em argila",
+        "correta": "B"
+    },
+    {
+        "id": 13,
+        "pergunta": "Qual é a principal função de um wireframe em design de interface de usuário (UI)?",
+        "alternativaA":"A) Adicionar cores e imagens aos elementos da interface",
+        "alternativaB":"B) Definir o layout e a estrutura de uma página ou aplicativo",
+        "alternativaC":"C) Criar gráficos de alta resolução para impressão",
+        "alternativaD":"D) Escrever o código fonte para o desenvolvimento da interface",
+        "correta": "B"
+    },
+    {
+        "id": 14,
+        "pergunta": "O que é tipografia no contexto do design gráfico?",
+        "alternativaA":"A) O uso de tip-toeiras em ilustrações",
+        "alternativaB":"B) A arte de criar animações em vídeo",
+        "alternativaC":"C) O uso de tipis (tendas indígenas) em design de interiores",
+        "alternativaD":"D) A seleção e organização de fontes e texto em um projeto de design",
+        "correta": "D"
+    },
+    {
+        "id": 15,
+        "pergunta": "Qual princípio de design enfatiza a consistência e a repetição de elementos visuais em um projeto para criar coesão?",
+        "alternativaA":"A) Harmonia",
+        "alternativaB":"B) Contraste",
+        "alternativaC":"C) Ruptura",
+        "alternativaD":"D) Unicidade",
+        "correta": "A"
+    },
+    {
+        "id": 16,
+        "pergunta": "O que é a autenticação de dois fatores (2FA) em segurança da informação?",
+        "alternativaA":"A) Um sistema de backup de dados",
+        "alternativaB":"B) Um método de criptografia avançada",
+        "alternativaC":"C) Um processo que usa duas ou mais formas de verificação para confirmar a identidade do usuário",
+        "alternativaD":"D) Uma política de segurança de senha",
+        "correta": "C"
+    },
+    {
+        "id": 17,
+        "pergunta": "Qual dos seguintes é um exemplo de ataque de engenharia social?",
+        "alternativaA":"A) Vírus de computador",
+        "alternativaB":"B) Firewall",
+        "alternativaC":"C) Phishing por e-mail",
+        "alternativaD":"D) Criptografia",
+        "correta": "C"
+    },
+    {
+        "id": 18,
+        "pergunta": "O que é um firewall em termos de segurança da informação?",
+        "alternativaA":"A) Uma ferramenta de recuperação de dados",
+        "alternativaB":"B) Um software antivírus",
+        "alternativaC":"C) Um dispositivo ou software que controla o tráfego de rede e protege contra ameaças",
+        "alternativaD":"D) Um programa de backup de arquivos",
+        "correta": "C"
+    },
+    {
+        "id": 19,
+        "pergunta": "Qual é a prática recomendada para proteger informações confidenciais em um ambiente de trabalho?",
+        "alternativaA":"A) Compartilhar senhas com colegas de confiança",
+        "alternativaB":"B) Deixar os computadores desbloqueados quando se afasta da mesa",
+        "alternativaC":"C) Utilizar senhas fortes e criptografia de dados",
+        "alternativaD":"D) Ignorar alertas de segurança em potenciais ameaças",
+        "correta": "C"
+    },
+    {
+        "id": 20,
+        "pergunta": "O que é um ataque de força bruta em segurança da informação?",
+        "alternativaA":"A) Um ataque que se baseia na persuasão para obter informações confidenciais",
+        "alternativaB":"B) Um ataque que utiliza software para tentar todas as combinações possíveis de senhas até encontrar a correta",
+        "alternativaC":"C) Um ataque que explora vulnerabilidades de software",
+        "alternativaD":"D) Um ataque que envolve o uso de vírus de computador",
+        "correta": "B"
+    }
+]

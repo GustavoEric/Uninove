@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="logo-uninove.svg" alt="">
+    <fieldset class="check-switch">
+        <label for="switch">
+            <input type="checkbox" name="switch" id="switch">
+            <i></i>
+        </label>
+    </fieldset>
+    <input type="button" value="a" id="btTest" onclick="alternarModo()">
+    <header>
+        <form>
+            <label for="usuario">Usuário:</label>
+            <input type="text" id="usuario" name="usuario" required>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+            <input type="submit" value="Entrar" onclick="validar(usuario.value,senha.value)">
+            <a href="#" onclick="lembrar()">Lembrar Senha</a>
+        </form>
+    </header>
+    <nav>
+        <a href="#" onclick="alterar('missao')">Missão</a>
+        <a href="#" onclick="alterar('cursos')">Cursos</a>
+    </nav>
+    <main id="principal">
+
+    </main>
+    <footer>
+        <p>
+            Desenvolvido Por Gus
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
