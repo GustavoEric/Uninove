@@ -131,6 +131,9 @@ proxima.addEventListener("click", function () {
             else if(seguranca > redes && seguranca > programacao && seguranca >design){
                 vocacao = "Segurança"
             }
+            else if(design == redes && design == programacao && design ==seguranca){
+                vocacao = "Redes, Programação, Design, Segurança"
+            }
             const total = redes+programacao+design+seguranca
             const pontuacaoTotal = document.createElement("p")
             const Desempenho = document.createElement("div")
@@ -154,6 +157,5 @@ proxima.addEventListener("click", function () {
             Desempenho.appendChild(pontuacaoSeguranca)
             form.appendChild(Desempenho)
             form.appendChild(vocacaoTxt)
-            alert(vocacao)
         }
 });
