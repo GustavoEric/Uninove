@@ -1,0 +1,47 @@
+h2{
+    /* display: inline; Ocupa apenas o Espaço dele mas não deixa modificar as dimensões */
+    background-color: green ;
+}
+span{
+    /* display: block; Ocupa todo o width e outros elementos vão para baixo e permite modificar dimensões*/
+    /* display: inline-block; Ocupa apenas o Espaço dele mas permite modificar as dimensões */
+    display: inline-block;
+    background-color: yellow;
+    display: block;
+}
+img:hover{
+    opacity: 0;
+    transition: 5s;
+}
+form {
+    display: inline-grid;
+}
+div#container {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid;
+    /* display: flex;
+    place-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+}
+img {
+    width: 29%;
+}
+.item{
+    border: 1px solid;
+}
+div#container {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid;
+}
+.item1{
+    background-color: red;
+}
+.item2{
+    background-color: yellow;
+}
+.item3{
+    background-color: green;
+}
