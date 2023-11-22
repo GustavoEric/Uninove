@@ -1,0 +1,8 @@
+div#divResultado {
+    display: grid;
+    grid-template-columns: 25%;
+}
+div#divResultado2 {
+    display: grid;
+    grid-template-columns: 25%;
+}
