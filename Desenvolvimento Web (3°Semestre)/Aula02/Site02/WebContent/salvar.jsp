@@ -8,7 +8,7 @@
 </head>
 <body>
 	<%
-	    //Pegando os dados da pagina indes.jsp
+	    //Pegando os dados da pagina indes.jspa
 		String nome = request.getParameter("txtname");
 		out.print("Nome: "+nome);
 		String ra = request.getParameter("txtra");
