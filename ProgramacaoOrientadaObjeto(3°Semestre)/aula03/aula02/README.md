@@ -6,7 +6,7 @@
 * Na parte superior direita tem uma janela que se chama open perspective
 * iremos trabalha com a janela `JAVA`
 
-# Analogia Orientação Orientada a Objetos
+# Analogia Programação Orientada a Objetos
 * Pense em uma forma com o bolo e pense na forma como se fosse a Class e o bolo como se fosse o Objeto.
 
 * A Classe pode produzir diversos objetos
