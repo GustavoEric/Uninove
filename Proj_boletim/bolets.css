@@ -1,0 +1,10 @@
+form{
+    width: 350px;
+}
+button{
+    width: 400px;
+}
+div.picture{
+    border: 1px solid black;
+    width: 350px;
+}

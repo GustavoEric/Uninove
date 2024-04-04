@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Site02</name>
+	<name>Pokedex</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -30,7 +30,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1709903973173</id>
+			<id>1710854042880</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
