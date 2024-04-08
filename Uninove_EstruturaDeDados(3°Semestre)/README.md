@@ -4,8 +4,8 @@
 * int *number
 * O ponteiro indica para o endereço da variavel referenciada a ele
 * Como nesse Código:
-* #include <stdio.h>
-include <stdlib.h> 
+  #include <stdio.h>
+  #include <stdlib.h> 
  
  main(){
      int x = 15;
