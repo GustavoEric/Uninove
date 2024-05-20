@@ -15,3 +15,6 @@
 * ListNum[0,2,3,4] inicio = 1 ListNum[1] == 2
 
 * Desta maneira de forma eficiente conseguimos excluir um numero e apenas passamos o inicio para o proximo elemento comparando com o exemplo de existir um array de 500 elementos não iremos mais mover 499 elementos
+
+# Imagem Representando a Exclusão
+![Imagem Exemplo Filas](https://img.uninove.br/static/0/0/0/0/0/0/0/1/9/6/7/196744/a12i01_estrdados80_100.jpg)
