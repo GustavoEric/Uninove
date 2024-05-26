@@ -69,7 +69,7 @@ class _HomePageState extends State<HomePage> {
         throw Exception('CEP inválido');
       } else if (response.statusCode == 404) {
         throw Exception('CEP não encontrado');
-      } else {cd
+      } else {
         throw Exception('Ocorreu um erro insperado.\nTente novamente.');
       }
     } catch (e) {
