@@ -1,3 +1,4 @@
+# Metodo Bubble Sort
 O método bolha (bubble sort) é um método de ordenação por trocas. Ele envolve repetidas comparações e, se necessário, a troca de dois elementos adjacentes (SCHILDT, 1995, p. 504). Consiste, em cada etapa, em "borbulhar" o maior elemento para o fim da lista. Veremos a seguir a ilustração desse método. Os seguintes números são para serem colocados em ordem:
 
 8     4     3     9
